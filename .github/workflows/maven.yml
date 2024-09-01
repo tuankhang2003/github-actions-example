@@ -34,4 +34,4 @@ jobs:
     - name: Update dependency graph
       uses: advanced-security/maven-dependency-submission-action@v1
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
