@@ -14,6 +14,7 @@ jobs:
       contents: read          # Required to read the repository contents
       pull-requests: write
       repository-projects: write
+
     steps:
     - uses: actions/checkout@v4
 
