@@ -12,8 +12,6 @@ jobs:
     
     permissions:
       contents: read          # Required to read the repository contents
-      dependency-graph: write # Required to update the dependency graph
-
     steps:
     - uses: actions/checkout@v4
 
