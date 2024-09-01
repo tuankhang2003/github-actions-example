@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: read          # Required to read the repository contents
       pull-requests: write
@@ -27,7 +27,7 @@ jobs:
         cache: maven
 
     - name: Build with Maven
-      run: mvn clean install
+      run: mvn clean
 
     # Submits dependencies to GitHub's dependency graph
     - name: Update dependency graph
